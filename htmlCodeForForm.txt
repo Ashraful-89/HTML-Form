@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head> <title> Registration Form</title>
+    </head>
+
+    <body>
+        <form>
+            <div>
+            <lebel for = "fullname" > FullName : </lebel> 
+            <input type = "text" name = "fullname" id = "fullname" required>
+            </div><br>
+
+            <div>
+                <lebel for = "email" > Email : </lebel> 
+                <input type = "email" name = "email" id = "email">
+             </div><br>
+             <div>
+                <lebel for = "Password" > Password : </lebel> 
+                <input type = "password" name = "password" id = "password">
+            </div><br>
+
+            <div>
+                <lebel for = "dof" > Date of Birth : </lebel> 
+                <input type = "date" name = "dob" id = "dob">
+            </div><br>
+            <div>
+                <lebel for = "photo" > Choose your Photo : </lebel> 
+                <input type = "file" name = "photo" id = "photo">
+                </div><br>
+                <div>
+                    <lebel for = "gender" > Gender : </lebel> 
+                    <input type = "radio" name = "gender" id = "gender" value = "male"> Male
+                    <input type = "radio" name = "gender" id = "gender" value = "female"> Female
+
+                </div><br>
+
+                <div>
+                    <lebel for = "religion" > Religion : </lebel> 
+                    <input type = "checkbox" name = "c1" id = "muslim" value = "islam"> Islam
+                    <input type = "checkbox" name = "c1" id = "hindu" value = "hindu"> Hindu
+
+                </div><br>
+
+                <div>
+                    <label for = "department" >Department:</label>
+                    <select name = "department">
+                        <option value = "CSE">CSE</option>
+                        <option value = "EEE">EEE</option>
+                        <option value = "ICE" selected >ICE</option>  
+                    </select>
+                </div><br>
+                <div>
+                    <label for = "message" > Message</label> <br><br>
+                    <textarea cols = "40" rows = "20" ></textarea>
+                </div>
+                <div>
+                    <input type = "submit" value = "Register">
+                    <input type = "reset" value = "Clear">
+                </div> </br>
+        </form>
+    </body>
+
+</html>
